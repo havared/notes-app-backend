@@ -1,0 +1,36 @@
+{
+  "name": "notes-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/www",
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/havared/notes-app-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/havared/notes-app-backend/issues"
+  },
+  "homepage": "https://github.com/havared/notes-app-backend#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.13",
+    "rest-api-errors": "^1.2.1",
+    "debug": "^2.6.9",
+    "http-errors": "^1.7.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^6.0.0"
+  }
+}
